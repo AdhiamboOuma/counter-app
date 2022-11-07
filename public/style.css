@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body {
+    background-color: rgba(147, 47, 240, 0.809);
+    margin: 0;
+    padding: 4rem;
+    font-size: xx-large;
+}
+div {
+  text-align: center;
+  margin-top: 7rem;
+}
+h1 {
+height: 5rem;
+}
+button {
+  font-size: 3rem ;
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+button:hover {
+ background-color: rgb(56, 2, 56);
+}
+
+@media screen and (max-width: 760px) {
+  .row {
+      align-items: center;
+      flex-direction: column;
+  }
+}
